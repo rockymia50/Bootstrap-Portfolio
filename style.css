@@ -1,0 +1,187 @@
+.background {
+    background-image: url(/Users/rogermcintosh/Apps/Basic-Portfolio/assets/images/skulls.png);
+    width: 100%;
+    height: 81vh;
+    margin-bottom: 1%;
+    padding:0px;
+
+}
+
+.nav {
+    background-color: white;
+}
+
+.navbar {
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 3%;
+    margin-right: 10%;
+    color: light rgb(196, 186, 186);
+    display: inline-flex;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 20%;
+    left: 95px;
+top: 2px;
+    
+    background-color: #4aaaa5;
+    height: 100%;
+}
+
+.content {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornsilk;
+    padding: 2em;
+    width: 50%;
+    height: 400px;
+    margin: 45px;
+    margin-top: 50px;
+    margin-left: 8px;
+    box-shadow: 0px 0px 0px 8px rgba(116, 115, 115, 0.3);
+    float: left;
+    
+}
+
+contentImage{padding:0px;
+    margin:0px;
+    width: 100px;
+
+
+}
+
+.sidebar {
+    padding: 1em;
+    width: 20%;
+    background-color: cornsilk;
+    box-shadow: 0px 0px 0px 8px rgba(116, 115, 115, 0.3);
+    margin-right: 0%;
+    margin-top: 50px;
+    float: right;
+    display: inline-flex
+}
+
+ul.horizontalTwo {
+    list-style: none;
+    display: inline-flex;
+    padding:0px;
+}
+
+.footer {
+    background-color: #dad4d4;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: thick;
+    margin-top:-35px;
+    height:60px;
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+}
+
+
+.wrapper{
+    position: relative;
+    width: 15%;
+}
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform:scale(0);
+    transition: .3s ease;
+  }
+  
+  .wrapper:hover .overlay {
+    transform: scale(1)
+  }
+  
+  .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Contact Layout Style */
+  input[type=text], {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=message]  {
+    width: 100%;
+    padding: 40px 40px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 30px;
+    margin: 0px 0;
+    border: bord;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    width: 30%;
+}
+
+#form border {background-color: #f2f2f2;
+    border-radius: 5px;
+       padding: 20px;
+}
+
+
+insideBox{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    background-color: black;
+    color:white;
+    opacity: .6;
+
+}
+
+insideContent{
+    padding:10px;
+    margin: 10px;
+    font-size: 6%;
+}
